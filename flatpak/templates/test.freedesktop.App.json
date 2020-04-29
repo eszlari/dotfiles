@@ -1,0 +1,23 @@
+{
+  "app-id": "test.freedesktop.App",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "19.08",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "test",
+  "modules": [
+    {
+      "name": "test",
+      "buildsystem": "simple",
+      "build-commands": [
+        "echo test; exit 42"
+      ],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "",
+          "sha256": ""
+        }
+      ]
+    }
+  ]
+}
