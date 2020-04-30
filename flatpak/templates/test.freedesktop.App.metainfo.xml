@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>test.freedesktop.App</id>
+  <launchable type="desktop-id">test.freedesktop.App.desktop</launchable>
+  <name>TestApp</name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  <summary>Test app</summary>
+  <description>
+    <p>
+      This is a template for Flatpak development, that passes:
+
+      $ flatpak run org.freedesktop.appstream-glib validate test.freedesktop.App.metainfo.xml
+    </p>
+  </description>
+  <url type="homepage">https://www.flatpak.org</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://upload.wikimedia.org/wikipedia/commons/4/42/Main_menu_of_Wikipedia.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.0.0" date="2011-11-11"/>
+  </releases>
+</component>

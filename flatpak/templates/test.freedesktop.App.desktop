@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Test App
+Comment=Test App
+GenericName=Test App
+Exec=test-app
+Icon=test.freedesktop.App
+Type=Application
+StartupNotify=false
+StartupWMClass=test-app
+Categories=Utility;
+MimeType=text/plain;
+Keywords=test;
